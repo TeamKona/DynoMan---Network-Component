@@ -4,6 +4,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	public float speed = 10f;
+	public GameObject pellet;
 
 	// Use this for initialization
 	void Start () {
@@ -24,9 +25,17 @@ public class Player : MonoBehaviour {
 			
 			if (Input.GetKey(KeyCode.A))
 				rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
+
+			if (Input.GetKey(KeyCode.Space))
+				networkView.RPC("CreatePellet", RPCMode.AllBuffered, transform.position);
 		}
 		else {
 			enabled = false;
 		}
+	}
+	
+	[RPC]
+	void CreatePellet(Vector3 playerPos){
+		Instantiate(pellet, playerPos, Quaternion.identity);
 	}
 }
