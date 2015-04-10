@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoma
 Loading C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.061 seconds
+- Completed reload, in  0.079 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -37,53 +37,34 @@ Incoming host list query response from master server.
  
 (Filename:  Line: 2484)
 
-1
+Starting Server
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Received pong from 10.94.245.2:25061
- 
-(Filename:  Line: 836)
-
-Running as client. No player ID set yet.
+Running as server. Player ID is 0.
  
 (Filename:  Line: 2484)
 
-Received pong from 192.168.0.13:25061
- 
-(Filename:  Line: 836)
-
-Connected to 10.94.245.2:25061
-
- 
-(Filename:  Line: 2484)
-
-Allocating view ID AllocatedID: 150.
-
- 
-(Filename:  Line: 2484)
-
-Allocating view ID AllocatedID: 151.
-
- 
-(Filename:  Line: 2484)
-
-Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 150'
-
- 
-(Filename:  Line: 2494)
-
-Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 151'
-
- 
-(Filename:  Line: 2494)
-
-Shingeki
+Server Initialized!
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Set player ID to 1
+Allocating view ID AllocatedID: 1.
 
+ 
+(Filename:  Line: 2484)
+
+Allocating view ID AllocatedID: 2.
+
+ 
+(Filename:  Line: 2484)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2484)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
  
 (Filename:  Line: 2484)
 
@@ -97,594 +78,1027 @@ Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 2'
  
 (Filename:  Line: 2494)
 
-Relay RPC - name: __RPCNetworkInstantiate - mode 2 - sender 10.94.245.2:25061
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 21 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 22 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 23 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 5 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 17 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 24 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 7 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 12 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID SceneID: 6 Level Prefix: 0
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID AllocatedID: 1
-
- 
-(Filename:  Line: 2494)
-
-Received state update for view ID AllocatedID: 2
-
- 
-(Filename:  Line: 2494)
-
-New scope index 0 is now in scope for AllocatedID: 150
+Attempting to connect to master server at 67.225.180.24:23466
  
 (Filename:  Line: 2484)
 
-Sending generic initial state update, broadcast off, view ID 'AllocatedID: 150'
-
+25021
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-New scope index 0 is now in scope for AllocatedID: 151
+Connected to facilitator at 67.225.180.24:50005
+
  
 (Filename:  Line: 2484)
 
-Sending generic initial state update, broadcast off, view ID 'AllocatedID: 151'
+Connected to master server at 67.225.180.24:23466
+ 
+(Filename:  Line: 2484)
 
+Sent host registration to master server, registering a NAT assisted game as
+ "Dynoman 1", 1, 5, not password protected, "A Bomber-Man Experience"
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received identifier 0 from master server
+ 
+(Filename:  Line: 2484)
 
+Registered Server
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New connection established (10.62.113.2:50100)
+ 
+(Filename:  Line: 2484)
 
+Network protocol version 0 connected
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for AllocatedID: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for AllocatedID: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for SceneID: 21 Level Prefix: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for SceneID: 22 Level Prefix: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for SceneID: 23 Level Prefix: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for SceneID: 25 Level Prefix: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for SceneID: 26 Level Prefix: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for SceneID: 5 Level Prefix: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for SceneID: 17 Level Prefix: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for SceneID: 24 Level Prefix: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for SceneID: 7 Level Prefix: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for SceneID: 12 Level Prefix: 0
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for SceneID: 6 Level Prefix: 0
+ 
+(Filename:  Line: 2484)
 
+New scope index 0 is now in scope for AllocatedID: 1
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+New scope index 0 is now in scope for AllocatedID: 2
+ 
+(Filename:  Line: 2484)
 
+Allocated 2 batches of size 50 for player 1
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sent initalization to player 1
+ 
+(Filename:  Line: 2484)
 
+Player:50100
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 21 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 22 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 23 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 5 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 17 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 24 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 7 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'SceneID: 6 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'AllocatedID: 2'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sent batch 5 of size 50 to 1
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 150'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 151'
 
  
 (Filename:  Line: 2494)
-
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
+Relay RPC - name: __RPCNetworkInstantiate - mode 2 - sender 10.62.113.2:50100
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2484)
+
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 151
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sent host update to master server with identifier 0
+ 
+(Filename:  Line: 2484)
 
+Received identifier 0 from master server
  
-(Filename:  Line: 2494)
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Registered Server
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
+Power Up Collected
  
-(Filename:  Line: 2494)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Allocating view ID AllocatedID: 3.
+
+ 
+(Filename:  Line: 2484)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2484)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2484)
+
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 3'
 
  
 (Filename:  Line: 2494)
+
+Sent RPC call 'SpawnBomber' to all connected clients
+
+ 
+(Filename:  Line: 2484)
+
+Added RPC 'SpawnBomber' to buffer.
+ 
+(Filename:  Line: 2484)
+
+Allocating view ID AllocatedID: 4.
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+ 
+(Filename:  Line: 2484)
+
+Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+
+ 
+(Filename:  Line: 2484)
 
+Added RPC '__RPCNetworkInstantiate' to buffer.
  
+(Filename:  Line: 2484)
+
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 4'
+
+ 
 (Filename:  Line: 2494)
+
+Sent RPC call 'SpawnBomber' to all connected clients
+
+ 
+(Filename:  Line: 2484)
+
+Added RPC 'SpawnBomber' to buffer.
+ 
+(Filename:  Line: 2484)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 152'
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+ 
+(Filename:  Line: 2494)
 
+Relay RPC - name: __RPCNetworkInstantiate - mode 2 - sender 10.62.113.2:50100
  
 (Filename:  Line: 2494)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 153'
 
  
 (Filename:  Line: 2494)
+
+Relay RPC - name: __RPCNetworkInstantiate - mode 2 - sender 10.62.113.2:50100
+ 
+(Filename:  Line: 2494)
+
+Added RPC '__RPCNetworkInstantiate' to buffer.
+ 
+(Filename:  Line: 2484)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Received state update for view ID AllocatedID: 152
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 153
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'AllocatedID: 3'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic initial state update, broadcast on, view ID 'AllocatedID: 4'
 
  
 (Filename:  Line: 2494)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Power Up Collected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'SceneID: 12 Level Prefix: 0'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Sending generic state update, broadcast on, view ID 'AllocatedID: 1'
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)
 
-Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+Received state update for view ID AllocatedID: 150
 
  
 (Filename:  Line: 2494)

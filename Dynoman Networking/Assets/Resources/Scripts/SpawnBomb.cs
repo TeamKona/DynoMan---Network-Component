@@ -23,24 +23,27 @@ public class SpawnBomb : MonoBehaviour {
 	
 		if (Input.GetKeyDown(KeyCode.Space)){
 			
-			SpawnBomber();
-
+			//SpawnBomber();
+			networkView.RPC("SpawnBomber", RPCMode.AllBuffered);
 		}
 
 	}
 
+	[RPC]
 	void SpawnBomber()
 	{
 		if (amount <= maxAmt && canBomb)
 		{
 			if(!canBombEx){
 
-				Instantiate(bomb,transform.position, transform.rotation);
+				Network.Instantiate(bomb,networkView.transform.position, networkView.transform.rotation, 0);
 			}
+
+
 
 			else if(canBombEx){
 			
-				Instantiate(BombEx,transform.position, transform.rotation);
+				Network.Instantiate(BombEx,networkView.transform.position, networkView.transform.rotation, 0);
 			}
 
 			amount++;
@@ -65,6 +68,7 @@ public class SpawnBomb : MonoBehaviour {
 
 		yield return new WaitForSeconds(0.75f);
 		canBomb = true;
+		Network.Destroy(bomb);
 	}
 
 	
