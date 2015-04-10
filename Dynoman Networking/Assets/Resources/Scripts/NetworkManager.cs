@@ -52,10 +52,13 @@ public class NetworkManager : MonoBehaviour {
 	void spawnPlayer(){
 		if (Network.isServer){
 			Network.Instantiate(playerPrefab, spawnObject.position, 
-			                    Quaternion.identity, 0);		}
+			                    Quaternion.identity, 0);
+
+		}
 		else if (Network.isClient){
 			Network.Instantiate(playerPrefab, spawnObject.position, 
-			                    Quaternion.identity, 1);		}
+			                    Quaternion.identity, 1);		
+		}
 	}
 	
 	//Server Messages
