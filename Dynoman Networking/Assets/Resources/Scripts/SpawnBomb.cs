@@ -20,13 +20,13 @@ public class SpawnBomb : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-		if (Input.GetKeyDown(KeyCode.Space)){
-			
-			//SpawnBomber();
-			networkView.RPC("SpawnBomber", RPCMode.AllBuffered);
+	if (networkView.isMine){
+			if (Input.GetKeyDown(KeyCode.Space)){
+				
+				//SpawnBomber();
+				networkView.RPC("SpawnBomber", RPCMode.AllBuffered);
+			}
 		}
-
 	}
 
 	[RPC]
@@ -68,7 +68,7 @@ public class SpawnBomb : MonoBehaviour {
 
 		yield return new WaitForSeconds(0.75f);
 		canBomb = true;
-		Network.Destroy(bomb);
+		//Network.Destroy(bomb);
 	}
 
 	

@@ -38,7 +38,7 @@ public class NetworkManager : MonoBehaviour {
 		refreshing = true;
 		Debug.LogWarning(Network.player.ipAddress);
 	}
-	
+
 	void Update () {
 		if (refreshing){
 			if (MasterServer.PollHostList().Length > 0){
