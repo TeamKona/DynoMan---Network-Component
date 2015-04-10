@@ -81,6 +81,7 @@ public class NetworkManager : MonoBehaviour {
 				for (int i = 0; i < hostData.Length; i++){
 					if(GUI.Button(srvBtn, hostData[i].gameName))
 						Network.Connect(hostData[i]);
+						
 				}
 			}
 		}

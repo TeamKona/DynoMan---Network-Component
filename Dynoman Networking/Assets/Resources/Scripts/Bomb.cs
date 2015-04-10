@@ -25,65 +25,63 @@ public class Bomb : MonoBehaviour {
 	}
 
 	IEnumerator BombTimer (){
-
-		yield return new WaitForSeconds(bombFuse);
-		GameObject.Find("Player").GetComponent<SpawnBomb>().amount--;
-		GameObject.Destroy(this.gameObject);
-
-		if(silBombEnabled == false){ 	//if (!silBombEnaled)
-
+		if (networkView.isMine){
+			yield return new WaitForSeconds(bombFuse);
+			GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnBomb>().amount--;
+			GameObject.Destroy(this.gameObject);
 			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z+i), transform.rotation);
+			if(silBombEnabled == false){ 	//if (!silBombEnaled)
+				
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z+i), transform.rotation);
+				}
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z-i), transform.rotation);
+				}
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnExplosion,new Vector3 (transform.position.x+i,transform.position.y,transform.position.z), transform.rotation);
+				}
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnExplosion,new Vector3 (transform.position.x-i,transform.position.y,transform.position.z), transform.rotation);
+				}
+				
 			}
 			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z-i), transform.rotation);
+			else if(silBombEnabled == true){
+				
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z+i), transform.rotation);
+				}
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z-i), transform.rotation);
+				}
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x+i,transform.position.y,transform.position.z), transform.rotation);
+				}
+				
+				for(int i = 0; i < expAreaNorm; i++)
+				{
+					Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x-i,transform.position.y,transform.position.z), transform.rotation);
+				}
+				
 			}
-			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnExplosion,new Vector3 (transform.position.x+i,transform.position.y,transform.position.z), transform.rotation);
-			}
-			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnExplosion,new Vector3 (transform.position.x-i,transform.position.y,transform.position.z), transform.rotation);
-			}
-
 		}
-
-		else if(silBombEnabled == true){
-
-			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z+i), transform.rotation);
-			}
-			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x,transform.position.y,transform.position.z-i), transform.rotation);
-			}
-			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x+i,transform.position.y,transform.position.z), transform.rotation);
-			}
-			
-			for(int i = 0; i < expAreaNorm; i++)
-			{
-				Instantiate(spawnSilentExplosion,new Vector3 (transform.position.x-i,transform.position.y,transform.position.z), transform.rotation);
-			}
-
-		}
-
 
 
 	}
-
-
-
+	
 }

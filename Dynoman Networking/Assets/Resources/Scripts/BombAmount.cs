@@ -14,8 +14,9 @@ public class BombAmount : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (networkView.isMine)
+		if (networkView.isMine){
 			bombAmount.text = "Bombs: " + GameObject.FindWithTag("Player").GetComponent<SpawnBomb>().amount;
+		}
 
 	}
 }

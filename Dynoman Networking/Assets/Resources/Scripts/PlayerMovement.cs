@@ -27,26 +27,27 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!isMoving && Input.GetKey(KeyCode.W) && canMove){
-			isMoving = true;
-			canTurn = false;
-			p8position = p8.transform.position;
-			StartCoroutine("MoveForwards");
+		if (networkView.isMine){
+			if (!isMoving && Input.GetKey(KeyCode.W) && canMove){
+				isMoving = true;
+				canTurn = false;
+				p8position = p8.transform.position;
+				StartCoroutine("MoveForwards");
+			}
+
+			if (canTurn && !isMoving && Input.GetKey(KeyCode.A) || (Input.GetKeyDown(KeyCode.A) && canTurn)){
+				StartCoroutine("RotateLeft");
+			}
+
+			if (canTurn && !isMoving && Input.GetKey(KeyCode.D) || (Input.GetKeyDown(KeyCode.D) && canTurn)){
+				StartCoroutine("RotateRight");
+			}
+
+			if (!alive){
+
+				StartCoroutine("Respawn");
+			}
 		}
-
-		if (canTurn && !isMoving && Input.GetKey(KeyCode.A) || (Input.GetKeyDown(KeyCode.A) && canTurn)){
-			StartCoroutine("RotateLeft");
-		}
-
-		if (canTurn && !isMoving && Input.GetKey(KeyCode.D) || (Input.GetKeyDown(KeyCode.D) && canTurn)){
-			StartCoroutine("RotateRight");
-		}
-
-		if (!alive){
-
-			StartCoroutine("Respawn");
-		}
-
 	}
 
 	IEnumerator Respawn () {
@@ -62,6 +63,22 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
+	void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)
+	{
+		Vector3 syncPosition = Vector3.zero;
+		if (stream.isWriting)
+		{
+			syncPosition = gameObject.transform.position;
+			//syncPosition = rigidbody.position;
+			stream.Serialize(ref syncPosition);
+		}
+		else
+		{
+			stream.Serialize(ref syncPosition);
+			//rigidbody.position = syncPosition;
+			gameObject.transform.position = syncPosition;
+		}
+	}
 
 	IEnumerator MoveForwards () {
 
