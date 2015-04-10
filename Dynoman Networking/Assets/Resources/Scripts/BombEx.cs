@@ -27,7 +27,7 @@ public class BombEx : MonoBehaviour {
 	IEnumerator BombTimer (){
 		
 		yield return new WaitForSeconds(bombFuse);
-		GameObject.Find("Player").GetComponent<SpawnBomb>().amount--;
+		GameObject.FindGameObjectWithTag("Player").GetComponent<SpawnBomb>().amount--;
 		GameObject.Destroy(this.gameObject);
 
 		if(silentBombEnabledEx == false){ 	//if (!silBombEnaled)

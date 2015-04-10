@@ -16,566 +16,11 @@ Platform assembly: C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoma
 Loading C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.104 seconds
+- Completed reload, in  0.061 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: C:\Users\Alexandre\Documents\DynoMan-Network-Component\Dynoman Networking\DynoManBuild_Data\Managed\System.Core.dll (this message is harmless)
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
 Refreshing
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
@@ -583,671 +28,664 @@ Refreshing
 192.168.0.13
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
 
 Connected to master server at 67.225.180.24:23466
  
 (Filename:  Line: 2484)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
 Incoming host list query response from master server.
  
 (Filename:  Line: 2484)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Refreshing
+1
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-192.168.0.13
+Received pong from 10.94.245.2:25061
+ 
+(Filename:  Line: 836)
+
+Running as client. No player ID set yet.
+ 
+(Filename:  Line: 2484)
+
+Received pong from 192.168.0.13:25061
+ 
+(Filename:  Line: 836)
+
+Connected to 10.94.245.2:25061
+
+ 
+(Filename:  Line: 2484)
+
+Allocating view ID AllocatedID: 150.
+
+ 
+(Filename:  Line: 2484)
+
+Allocating view ID AllocatedID: 151.
+
+ 
+(Filename:  Line: 2484)
+
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 151'
+
+ 
+(Filename:  Line: 2494)
+
+Shingeki
  
 (Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Set player ID to 1
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Incoming host list query response from master server.
  
 (Filename:  Line: 2484)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 1'
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Assigning a view ID: old view ID 'AllocatedID: 0', new view ID 'AllocatedID: 2'
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Relay RPC - name: __RPCNetworkInstantiate - mode 2 - sender 10.94.245.2:25061
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 21 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 22 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 23 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-Refreshing
+Received state update for view ID SceneID: 5 Level Prefix: 0
+
  
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+(Filename:  Line: 2494)
 
-192.168.0.13
+Received state update for view ID SceneID: 17 Level Prefix: 0
+
  
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 24 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 7 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 12 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID SceneID: 6 Level Prefix: 0
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID AllocatedID: 1
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
+Received state update for view ID AllocatedID: 2
+
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Incoming host list query response from master server.
+New scope index 0 is now in scope for AllocatedID: 150
  
 (Filename:  Line: 2484)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Sending generic initial state update, broadcast off, view ID 'AllocatedID: 150'
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
  
-(Filename:  Line: -1)
+(Filename:  Line: 2494)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Starting Server
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Running as server. Player ID is 0.
+New scope index 0 is now in scope for AllocatedID: 151
  
 (Filename:  Line: 2484)
 
-Server Initialized!
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
-
-Allocating view ID AllocatedID: 1.
+Sending generic initial state update, broadcast off, view ID 'AllocatedID: 151'
 
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Allocating view ID AllocatedID: 2.
-
- 
-(Filename:  Line: 2484)
-
-Sent RPC call '__RPCNetworkInstantiate' to all connected clients
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Added RPC '__RPCNetworkInstantiate' to buffer.
- 
-(Filename:  Line: 2484)
-
-Attempting to connect to master server at 67.225.180.24:23466
- 
-(Filename:  Line: 2484)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at NetworkManager.OnGUI () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Connected to facilitator at 67.225.180.24:50005
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Connected to master server at 67.225.180.24:23466
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-Received identifier 0 from master server
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Registered Server
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New connection established (192.168.0.13:63745)
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for AllocatedID: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for AllocatedID: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for SceneID: 21 Level Prefix: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for SceneID: 22 Level Prefix: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for SceneID: 23 Level Prefix: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for AllocatedID: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for AllocatedID: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for SceneID: 5 Level Prefix: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for SceneID: 17 Level Prefix: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for SceneID: 24 Level Prefix: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for SceneID: 7 Level Prefix: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for SceneID: 12 Level Prefix: 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for SceneID: 6 Level Prefix: 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-New scope index 0 is now in scope for AllocatedID: 1
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-New scope index 0 is now in scope for AllocatedID: 2
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-Sent initalization to player 1
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Sent host update to master server with identifier 0
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-Received identifier 0 from master server
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Registered Server
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-Added RPC '__RPCNetworkInstantiate' to buffer.
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-A client has disconnected from this server. Player ID 1, IP 192.168.0.13:63745
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-Sent host update to master server with identifier 0
  
-(Filename:  Line: 2484)
+(Filename:  Line: 2494)
 
-Received identifier 0 from master server
- 
-(Filename:  Line: 2484)
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
 
-Registered Server
  
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
+
+Sending generic state update, broadcast off, view ID 'AllocatedID: 150'
+
+ 
+(Filename:  Line: 2494)
 

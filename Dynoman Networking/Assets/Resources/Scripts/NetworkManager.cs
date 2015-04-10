@@ -9,6 +9,9 @@ public class NetworkManager : MonoBehaviour {
 	private string roomName = "Dynoman_Testing_Room_1";
 	private bool refreshing = false;
 	private HostData[] hostData = new HostData[0];
+	private int numOfGames = 1;
+	private int startPort = 25001;
+	private int currentPort = 25001;
 	
 	Rect btn1 = new Rect(Screen.width * 0.08f, Screen.width * 0.05f,
 	                     Screen.width * 0.2f, Screen.width * 0.1f);
@@ -19,12 +22,15 @@ public class NetworkManager : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		
+		currentPort = startPort;
 	}
 	
 	void StartServer(){
-		Network.InitializeServer(4, 25001, !Network.HavePublicAddress());
-		MasterServer.RegisterHost(roomName,"Dynoman", "A Bomber-Man Experience");
+
+		currentPort = Random.Range(25001, 25101);
+		Network.InitializeServer(4, currentPort, !Network.HavePublicAddress());
+		MasterServer.RegisterHost(roomName,"Dynoman " + numOfGames, "A Bomber-Man Experience");
+		Debug.LogWarning(currentPort);
 	}
 	
 	void RefreshHostList(){
@@ -44,8 +50,12 @@ public class NetworkManager : MonoBehaviour {
 	}
 	
 	void spawnPlayer(){
-		Network.Instantiate(playerPrefab, spawnObject.position, 
-		                    Quaternion.identity, 0);
+		if (Network.isServer){
+			Network.Instantiate(playerPrefab, spawnObject.position, 
+			                    Quaternion.identity, 0);		}
+		else if (Network.isClient){
+			Network.Instantiate(playerPrefab, spawnObject.position, 
+			                    Quaternion.identity, 1);		}
 	}
 	
 	//Server Messages
@@ -57,6 +67,11 @@ public class NetworkManager : MonoBehaviour {
 	
 	void OnConnectedToServer(){
 		spawnPlayer();
+		Debug.LogWarning("Shingeki");
+	}
+
+	void OnPlayerConnected(NetworkPlayer player){
+		Debug.Log ("Player:" + player.port);
 	}
 	
 	void OnMasterServerEvent(MasterServerEvent mse){
